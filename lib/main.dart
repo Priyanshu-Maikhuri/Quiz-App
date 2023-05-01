@@ -80,6 +80,7 @@ class _MyAppState extends State<MyApp>{
   @override // mentions we're deliberately overriding build menthod already present in StatefulWidget class
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
           primarySwatch: Colors.indigo,),
       home: Scaffold(
